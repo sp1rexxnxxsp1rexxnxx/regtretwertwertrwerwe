@@ -30,7 +30,7 @@ client.on('ready', () => {
     client.user.setStatus("Online")
 });
  
-const prefix = "$$"
+const prefix = "1"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
  
