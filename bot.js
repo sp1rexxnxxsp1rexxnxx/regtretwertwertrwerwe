@@ -12,7 +12,7 @@ client.on("message", async message => {
     if (message.author.bot) return;
     if (message.channel.type === "dm") return;
     if (!message.member.voiceChannel) return message.channel.send('I can\'t find u in any voice channel')
-    let prefix = "1";
+    let prefix = "7";
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
 
@@ -30,7 +30,7 @@ client.on('ready', () => {
     client.user.setStatus("Online")
 });
  
-const prefix = "1"
+const prefix = "7"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
  
